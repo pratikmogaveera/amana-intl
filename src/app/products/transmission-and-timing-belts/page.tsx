@@ -1,6 +1,5 @@
-import HomeContactUs from '@/components/HomeContactUs';
 import { Card, CardContent } from '@/components/ui/card';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import type { Metadata } from "next";
@@ -70,7 +69,6 @@ const page = () => {
                     </div>
                 </div>
             </Wrapper >
-            <HomeContactUs />
         </div>
     )
 }

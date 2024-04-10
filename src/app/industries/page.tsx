@@ -1,10 +1,9 @@
-import React from 'react'
-import type { Metadata } from "next";
-import Wrapper from '@/components/util/Wrapper';
-import HomeContactUs from '@/components/HomeContactUs';
-import Image from 'next/image';
-import { CheckCircle, CheckCircle2, Factory } from 'lucide-react';
 import PageHeading from '@/components/util/PageHeading';
+import Wrapper from '@/components/util/Wrapper';
+import { Factory } from 'lucide-react';
+import type { Metadata } from "next";
+import Image from 'next/image';
+import React from 'react';
 
 export const metadata: Metadata = {
     title: "Industries - Amana International Industrial Company",
@@ -51,7 +50,6 @@ const page = () => {
                 </div>
 
             </Wrapper >
-            <HomeContactUs />
         </div >
     )
 }

@@ -1,9 +1,7 @@
-import React from 'react'
-import type { Metadata } from "next";
-import Wrapper from '@/components/util/Wrapper';
-import Image from 'next/image';
-import HomeContactUs from '@/components/HomeContactUs';
 import PageHeading from '@/components/util/PageHeading';
+import Wrapper from '@/components/util/Wrapper';
+import type { Metadata } from "next";
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: "Brands - Amana International Industrial Company",
@@ -87,7 +85,6 @@ const page = () => {
                     {brands.map((item, index) => <BrandCard key={index} img={item.img} name={item.name} products={item.products} />)}
                 </div>
             </Wrapper>
-            <HomeContactUs />
         </div >
     )
 }

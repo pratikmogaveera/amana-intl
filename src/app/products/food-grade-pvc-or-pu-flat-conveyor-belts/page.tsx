@@ -1,6 +1,5 @@
-import HomeContactUs from '@/components/HomeContactUs';
 import { Card, CardContent } from '@/components/ui/card';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import type { Metadata } from "next";
@@ -62,7 +61,6 @@ const page = () => {
                         <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/pvc-2.jpg' alt='pvc-2.jpg' fill className='object-cover' /></div>                    </div>
                 </div>
             </Wrapper >
-            <HomeContactUs />
         </div>
     )
 }

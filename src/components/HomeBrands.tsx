@@ -44,7 +44,7 @@ const HomeBrands = () => {
                     <Carousel className="" autoplay={true}>
                         <CarouselContent>
                             {images.map((item, index) => (
-                                <CarouselItem key={index} className="basis-1/3">
+                                <CarouselItem key={index} className="basis-1/2">
                                     <div className="p-1">
                                         <Card>
                                             <CardContent className="flex aspect-square items-center justify-center p-6 relative">

@@ -1,10 +1,8 @@
-import React from 'react'
-import type { Metadata } from "next";
-import Wrapper from '@/components/util/Wrapper';
-import Image from 'next/image';
-import HomeContactUs from '@/components/HomeContactUs';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import PageHeading from '@/components/util/PageHeading';
+import Wrapper from '@/components/util/Wrapper';
+import type { Metadata } from "next";
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: "Clients - Amana International Industrial Company",
@@ -106,7 +104,6 @@ const page = () => {
                     </Carousel>
                 </div>
             </Wrapper >
-            <HomeContactUs />
         </div >
     )
 }

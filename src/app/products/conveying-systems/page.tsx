@@ -1,4 +1,3 @@
-import HomeContactUs from '@/components/HomeContactUs';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import PageHeading from '@/components/util/PageHeading';
@@ -67,7 +66,6 @@ const page = () => {
                         <div className='relative col-start-2 col-span-2 row-span-2 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-2.jpg' alt='conveying-2.jpg' fill className='object-cover' /></div>                    </div>
                 </div>
             </Wrapper >
-            <HomeContactUs />
         </div>
     )
 }

@@ -1,13 +1,9 @@
-import React from 'react'
-import Wrapper from './util/Wrapper'
-import { Button, buttonVariants } from './ui/button'
-import DualSection from './util/DualSection'
-import Link from 'next/link'
 import ContactButton from './ui/ContactButton'
+import Wrapper from './util/Wrapper'
 
 const HomeContactUs = () => {
     return (
-        <div className='w-full bg-company'>
+        <div className='w-full blue-gradient'>
             <Wrapper>
                 <div className='w-full flex flex-col gap-8 px-2 py-8 md:px-8 md:py-10' >
                     <div className='text-white flex flex-col gap-1'>

@@ -9,10 +9,10 @@ import Image from 'next/image'
 
 const HomeProducts = () => {
     return (
-        <div className='bg-[#f5c000]'>
+        <div className='blue-gradient'>
             <Wrapper>
                 <div className='flex flex-col gap-8 items-center py-16'>
-                    <h1 className='font-semibold text-white text-2xl md:text-3xl text-center'>
+                    <h1 className='font-semibold text-white text-3xl md:text-4xl text-center'>
                         Our Products
                     </h1>
                     <Carousel autoplay={true} buttonPos='outside' className='w-full'>

@@ -1,9 +1,7 @@
-import React from 'react'
-import type { Metadata } from "next";
-import Wrapper from '@/components/util/Wrapper';
-import HomeContactUs from '@/components/HomeContactUs';
-import Image from 'next/image';
 import PageHeading from '@/components/util/PageHeading';
+import Wrapper from '@/components/util/Wrapper';
+import type { Metadata } from "next";
+import Image from 'next/image';
 
 export const metadata: Metadata = {
     title: "Services - Amana International Industrial Company",
@@ -33,7 +31,6 @@ const page = () => {
                 </div>
 
             </Wrapper >
-            <HomeContactUs />
         </div >
     )
 }

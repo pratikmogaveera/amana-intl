@@ -1,4 +1,3 @@
-import HomeContactUs from '@/components/HomeContactUs';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 import PageHeading from '@/components/util/PageHeading';
@@ -72,7 +71,6 @@ const page = () => {
                     </div>
                 </div>
             </Wrapper >
-            <HomeContactUs />
         </div>
     )
 }
