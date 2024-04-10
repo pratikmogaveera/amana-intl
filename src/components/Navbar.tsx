@@ -110,14 +110,12 @@ const DesktopNav = () => {
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="bg-transparent">Products</NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="flex flex-col w-[300px] gap-2 p-4">
+                        <div className="flex flex-col w-[300px] gap-2 p-4">
                             {productList.map(item =>
-                                <li key={item.id} className="w-full bg-muted/50 hover:bg-muted px-4 py-2 rounded-lg font-medium">
-                                    <Link href={item.href} >
-                                        {item.title}
-                                    </Link>
-                                </li>)}
-                        </ul>
+                                <Link href={item.href} key={item.id} className="w-full bg-muted/50 hover:bg-muted px-4 py-2 rounded-lg font-medium" >
+                                    {item.title}
+                                </Link>)}
+                        </div>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
