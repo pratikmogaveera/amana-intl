@@ -95,14 +95,14 @@ const DesktopNav = () => {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Link href={"/"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Home
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/services"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Services
                         </NavigationMenuLink>
                     </Link>
@@ -122,21 +122,21 @@ const DesktopNav = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/brands"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Brands
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/industries"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Industries
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/clients"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Clients
                         </NavigationMenuLink>
                     </Link>
