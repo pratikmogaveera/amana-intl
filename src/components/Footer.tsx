@@ -1,6 +1,5 @@
-import Wrapper from '@/components/util/Wrapper'
 import { allLinksList, productList } from '@/lib/constants'
-import { ChevronRight, Link as LinkIcon, Mail, Phone, Building2 } from 'lucide-react'
+import { Building2, ChevronRight, Link as LinkIcon, Mail, Phone } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
