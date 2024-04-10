@@ -1,5 +1,4 @@
 'use client'
-import Wrapper from "@/components/util/Wrapper";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -13,28 +12,27 @@ import {
     Sheet,
     SheetClose,
     SheetContent,
-    SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
-    SheetTrigger,
-} from "@/components/ui/sheet"
+    SheetTrigger
+} from "@/components/ui/sheet";
+import Wrapper from "@/components/util/Wrapper";
 import Image from "next/image";
 import React from 'react';
 
-import { aboutUsList, navLinks } from '@/lib/constants';
+import { aboutUsList, productList } from '@/lib/constants';
 import { cn } from '@/lib/utils';
+import { Menu } from "lucide-react";
 import Link from 'next/link';
-import { ArrowUpRightFromCircle, ArrowUpRightSquare, Menu } from "lucide-react";
-import { Button, buttonVariants } from "./ui/button";
 import ContactButton from "./ui/ContactButton";
+import { Button } from "./ui/button";
 
 
 const Navbar = () => {
     return (
         <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-gradient-to-b from-background to-background/95">
             <Wrapper className="flex h-16 items-center justify-between">
-                <div className="relative w-[80px] h-12">
+                <div className="relative w-[80px] h-12 flex-shrink-0">
                     <Link href={"/"}>
                         <Image
                             src="/assets/amana_logo.png"
@@ -97,12 +95,53 @@ const DesktopNav = () => {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Link href={"/"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Home
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
+                    <Link href={"/services"} legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Services
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger className="bg-transparent">Products</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <ul className="flex flex-col w-[300px] gap-2 p-4">
+                            {productList.map(item =>
+                                <li key={item.id} className="w-full bg-muted/50 hover:bg-muted px-4 py-2 rounded-lg font-medium">
+                                    <Link href={item.href} >
+                                        {item.title}
+                                    </Link>
+                                </li>)}
+                        </ul>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                    <Link href={"/brands"} legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Brands
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                    <Link href={"/industries"} legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Industries
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                    <Link href={"/clients"} legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Clients
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                {/* <NavigationMenuItem>
                     <NavigationMenuTrigger className="bg-transparent">Explore</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid gap-2 p-6 md:w-[400px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]">
@@ -131,7 +170,7 @@ const DesktopNav = () => {
                                 </ListItem>)}
                         </ul>
                     </NavigationMenuContent>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
                 <NavigationMenuItem>
                     <Link href={"/contact-us"} legacyBehavior passHref>
                         <NavigationMenuLink asChild>
