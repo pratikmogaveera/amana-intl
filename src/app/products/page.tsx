@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { buttonVariants } from '@/components/ui/button';
+import PageHeading from '@/components/util/PageHeading';
 
 export const metadata: Metadata = {
     title: "Products - Amana International Industrial Company",
@@ -14,11 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <div>
-            <div className='bg-company-secondary  h-40 md:h-56 w-full'>
-                <Wrapper className='h-full flex items-center'>
-                    <h1 className='text-white font-bold text-5xl pl-2'>Products</h1>
-                </Wrapper>
-            </div>
+            <PageHeading heading='Products' />
             <Wrapper className='md:w-[70%]'>
                 <div className='w-full py-16'>
                     <div className='grid grid-cols-1 xl:grid-cols-2 gap-6'>

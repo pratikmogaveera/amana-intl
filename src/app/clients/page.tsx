@@ -4,6 +4,7 @@ import Wrapper from '@/components/util/Wrapper';
 import Image from 'next/image';
 import HomeContactUs from '@/components/HomeContactUs';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
+import PageHeading from '@/components/util/PageHeading';
 
 export const metadata: Metadata = {
     title: "Clients - Amana International Industrial Company",
@@ -48,11 +49,7 @@ const page = () => {
 
     return (
         <div>
-            <div className='bg-company-secondary  h-40 md:h-56 w-full'>
-                <Wrapper className='h-full flex items-center'>
-                    <h1 className='text-white font-bold text-5xl pl-2'>Clients</h1>
-                </Wrapper>
-            </div>
+            <PageHeading heading='Clients' />
             <Wrapper className='flex flex-col gap-8 py-16 items-center'>
                 <h1 className='text-3xl font-bold text-company-secondary'>Almamrai Plants</h1>
                 <div className='hidden md:flex flex-wrap gap-4 justify-center'>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Wrapper from '@/components/util/Wrapper';
 import Image from 'next/image';
 import HomeContactUs from '@/components/HomeContactUs';
+import PageHeading from '@/components/util/PageHeading';
 
 export const metadata: Metadata = {
     title: "Brands - Amana International Industrial Company",
@@ -73,11 +74,7 @@ const page = () => {
 
     return (
         <div>
-            <div className='bg-company-secondary  h-40 md:h-56 w-full'>
-                <Wrapper className='h-full flex items-center'>
-                    <h1 className='text-white font-bold text-5xl pl-2'>Brands</h1>
-                </Wrapper>
-            </div>
+            <PageHeading heading='Brands' />
             <Wrapper className='flex flex-col gap-8 py-16 items-center'>
                 <h1 className='text-3xl font-bold text-company-secondary'>Our Brands & Products</h1>
                 <div className='md:hidden flex flex-wrap gap-4 justify-center'>

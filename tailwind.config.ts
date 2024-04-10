@@ -21,7 +21,8 @@ const config = {
             colors: {
                 company: {
                     DEFAULT: "hsl(0, 100%, 50%)",
-                    secondary: "hsl(212, 100%, 20%)"
+                    secondary: "hsl(197, 100%, 40%)",
+                    tertiary: "hsl(212, 100%, 20%)",
                 },
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",

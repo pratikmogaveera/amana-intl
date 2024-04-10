@@ -4,6 +4,7 @@ import Wrapper from '@/components/util/Wrapper';
 import HomeContactUs from '@/components/HomeContactUs';
 import Image from 'next/image';
 import { CheckCircle, CheckCircle2, Factory } from 'lucide-react';
+import PageHeading from '@/components/util/PageHeading';
 
 export const metadata: Metadata = {
     title: "Industries - Amana International Industrial Company",
@@ -23,13 +24,9 @@ const page = () => {
 
     return (
         <div>
-            <div className='bg-company-secondary  h-40 md:h-56 w-full'>
-                <Wrapper className='h-full flex items-center'>
-                    <h1 className='text-white font-bold text-5xl pl-2'>Industries</h1>
-                </Wrapper>
-            </div>
+            <PageHeading heading='Industries' />
             <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen py-16'>
-                <div className='w-full h-full flex flex-col px-2 gap-4 lg:pt-14 order-2 lg:order-1 mb-14'>
+                <div className='w-full h-full flex flex-col px-2 gap-4 order-2 lg:order-1'>
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Our Expertise Across Industries
                     </h1>
@@ -47,7 +44,7 @@ const page = () => {
                     </p>
                 </div>
 
-                <div className='w-full h-full pt-14 order-1 lg:order-2 flex justify-center'>
+                <div className='w-full h-full lg:pt-14 order-1 lg:order-2 flex justify-center'>
                     <div className='w-[370px] h-[250px] lg:w-[550px] lg:h-[300px] relative rounded-lg overflow-hidden'>
                         <Image src='/assets/industries.jpg' alt='industries.jpg' fill className='object-cover' />
                     </div>

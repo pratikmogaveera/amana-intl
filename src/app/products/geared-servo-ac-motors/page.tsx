@@ -1,6 +1,7 @@
 import HomeContactUs from '@/components/HomeContactUs';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
+import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import type { Metadata } from "next";
 
@@ -13,11 +14,8 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <div>
-            <div className='bg-company-secondary h-40 md:h-56 w-full'>
-                <Wrapper className='h-full flex items-center'>
-                    <h1 className='text-white font-bold text-5xl pl-2'>Geared / Servo & AC Motors</h1>
-                </Wrapper>
-            </div>
+            <PageHeading heading='Geared / Servo & AC Motors' />
+
             <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen min-h-[calc(100vh-4rem)] py-16'>
                 <div className='flex lg:hidden gap-8 justify-center'>
                     <div className='w-full'>
