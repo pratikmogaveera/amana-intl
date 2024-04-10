@@ -10,11 +10,12 @@ const Footer = () => {
             <Wrapper>
                 <div className='w-full grid gap-8 grid-cols-1 md:grid-cols-2' >
                     <div className='flex flex-col gap-8'>
-                        <div className="relative w-[150px] md:w-[180px] aspect-[2.03]">
+                        <div className="relative w-[150px] aspect-[2.03]">
                             <Image
-                                src="/assets/azhar_logo.png"
-                                alt="azhar logo"
+                                src="/assets/amana_logo.png"
+                                alt="amana logo"
                                 fill
+                                className='object-contain object-left'
                             />
                         </div>
 
@@ -45,7 +46,7 @@ const Footer = () => {
                                         <Mail size={22} />
                                     </div>
                                     <p className='text-lg'>
-                                        inquiry@azhar.com
+                                        inquiry@amana.com
                                     </p>
                                 </div>
                             </div>
@@ -73,7 +74,7 @@ const Footer = () => {
                 </div>
                 <div className='w-fit mx-auto mt-16 text-sm'>
                     <p className='text-muted/60 leading-none text-center'>
-                        © 2024 Azhar Industrial Trading Est.<br />All rights reserved.
+                        © 2024 Amana International Industrial Company<br />All rights reserved.
                     </p>
                 </div>
             </Wrapper>

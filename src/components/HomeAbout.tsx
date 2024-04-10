@@ -27,10 +27,10 @@ const HomeAbout = () => {
                         </Heading>
                     </div>
 
-                    <Title title='Azhar: Your Trusted Industrial Supplier' />
+                    <Title title='Amana: Your Trusted Industrial Supplier' />
 
                     <Details>
-                        At Azhar, we pride ourselves on our ability to ship clearly specified parts, including those hard-to-find items.
+                        At Amana, we pride ourselves on our ability to ship clearly specified parts, including those hard-to-find items.
                         <br />
                         <br />
                         We are dedicated to providing hassle-free access to authentic parts for diverse equipment brands. With our extensive range of components and vast OEM network, we cater to a wide variety of industries.

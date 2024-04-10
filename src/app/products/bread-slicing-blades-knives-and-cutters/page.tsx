@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "Bread Slicing Blades, Knives, and Cutters - Azhar International Trading Est.",
+    title: "Bread Slicing Blades, Knives, and Cutters - Amana International Industrial Company",
 };
 
 const page = () => {

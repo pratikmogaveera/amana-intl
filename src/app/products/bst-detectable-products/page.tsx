@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "BST Detectable Produts - Azhar International Trading Est.",
+    title: "BST Detectable Produts - Amana International Industrial Company",
 };
 
 const page = () => {

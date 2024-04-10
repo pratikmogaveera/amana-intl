@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "Automation - Azhar International Trading Est.",
+    title: "Automation - Amana International Industrial Company",
 };
 
 const page = () => {
@@ -51,7 +51,7 @@ const page = () => {
                         Explore Our Comprehensive Automation Solutions
                     </h1>
                     <p className='text-lg mt-8'>
-                        At Azhar, we offer a wide range of automation solutions tailored to meet your industrial needs. Our specialized expertise includes supporting brand-new parts such as VFDs, HMIs, PLCs, Proximity Sensors, Multi Timers, and more, sourced from renowned brands like Siemens, Allen Bradley, ABB, Danfoss, Lenze, Mitsubishi, Omron, Yaskawa, and others.
+                        At Amana, we offer a wide range of automation solutions tailored to meet your industrial needs. Our specialized expertise includes supporting brand-new parts such as VFDs, HMIs, PLCs, Proximity Sensors, Multi Timers, and more, sourced from renowned brands like Siemens, Allen Bradley, ABB, Danfoss, Lenze, Mitsubishi, Omron, Yaskawa, and others.
                     </p>
                     <p className='text-lg'>
                         In addition to standard components, we excel in providing specialized process control components, ensuring a one-stop choice for our valued customers. Our sourcing strategy involves direct collaboration with factory-authorized distributors, guaranteeing fair and competitive pricing at all times.

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "Roller, Oven, Tunnel, and Band Chains - Azhar International Trading Est.",
+    title: "Roller, Oven, Tunnel, and Band Chains - Amana International Industrial Company",
 };
 
 const page = () => {

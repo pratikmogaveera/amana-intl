@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "Geared / Servo & AC Motors - Azhar International Trading Est.",
+    title: "Geared / Servo & AC Motors - Amana International Industrial Company",
 };
 
 const page = () => {

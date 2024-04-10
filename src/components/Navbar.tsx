@@ -34,12 +34,13 @@ const Navbar = () => {
     return (
         <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-gradient-to-b from-background to-background/95">
             <Wrapper className="flex h-16 items-center justify-between">
-                <div className="relative w-[100px] md:w-[110px] aspect-[2.03]">
+                <div className="relative w-[80px] h-12">
                     <Link href={"/"}>
                         <Image
-                            src="/assets/azhar_logo.png"
-                            alt="azhar logo"
+                            src="/assets/amana_logo.png"
+                            alt="amana logo"
                             fill
+                            className="object-contain"
                         />
                     </Link>
                 </div>
@@ -112,14 +113,14 @@ const DesktopNav = () => {
                                         href="/about-us"
                                     >
                                         <div className="mb-2 mt-4 text-lg font-medium flex gap-2 justify-between">
-                                            AZHAR
+                                            AMANA
 
                                             <span className="text-muted-foreground">
                                                 <ArrowUpRightFromCircle />
                                             </span>
                                         </div>
                                         <p className="text-sm leading-tight text-muted-foreground">
-                                            Azhar Intl. Trading Est., one of the leading & reputed industrial supplies company dedicated to providing hassle-free supplies of original parts for all makes and brands of process and utility equipment. With our extensive range of components and vast OEM network, we cater to a wide variety of industries.
+                                            Amana International Industrial Company, one of the leading & reputed industrial supplies company dedicated to providing hassle-free supplies of original parts for all makes and brands of process and utility equipment. With our extensive range of components and vast OEM network, we cater to a wide variety of industries.
                                         </p>
                                     </a>
                                 </NavigationMenuLink>

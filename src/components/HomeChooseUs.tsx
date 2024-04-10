@@ -16,7 +16,7 @@ const HomeChooseUs = () => {
                         <BadgeCheck size={50} />
                     </Heading>
 
-                    <Title title='Discover the Key Reasons to Partner with Azhar' />
+                    <Title title='Discover the Key Reasons to Partner with Amana' />
 
                     <ul className='flex flex-col gap-4 text-black leading-tight'>
                         <ListItem>
@@ -32,7 +32,7 @@ const HomeChooseUs = () => {
                             Our commitment to excellence guarantees the delivery of top-quality spares and components, customized for the diverse needs of Food Industries and Processing Plants.
                         </ListItem>
                         <ListItem>
-                            Elevate the efficiency of your food and processing operations with our seamless supply services by partnering with Azhar today.
+                            Elevate the efficiency of your food and processing operations with our seamless supply services by partnering with Amana today.
                         </ListItem>
                         <ListItem>
                             Unlock the full potential of your business with our unparalleled spare parts supply services, meticulously designed to optimize your operations.

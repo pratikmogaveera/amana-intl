@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-    title: "Food Grade PVC / PU Flat Conveyor Belts - Azhar International Trading Est.",
+    title: "Food Grade PVC / PU Flat Conveyor Belts - Amana International Industrial Company",
 };
 
 const page = () => {
