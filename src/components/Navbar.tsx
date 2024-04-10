@@ -101,6 +101,13 @@ const DesktopNav = () => {
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
+                    <Link href={"/about-us"} legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
+                            About Us
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
                     <Link href={"/services"} legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Services
@@ -139,36 +146,6 @@ const DesktopNav = () => {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
-                {/* <NavigationMenuItem>
-                    <NavigationMenuTrigger className="bg-transparent">Explore</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                        <ul className="grid gap-2 p-6 md:w-[400px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]">
-                            <li className="row-span-5">
-                                <NavigationMenuLink asChild>
-                                    <a
-                                        className="flex h-full w-full select-none flex-col justify-center rounded-md bg-gradient-to-b from-muted/30 to-muted/80 p-6 hover:bg-muted no-underline outline-none focus:shadow-md"
-                                        href="/about-us"
-                                    >
-                                        <div className="mb-2 mt-4 text-lg font-medium flex gap-2 justify-between">
-                                            AMANA
-
-                                            <span className="text-muted-foreground">
-                                                <ArrowUpRightFromCircle />
-                                            </span>
-                                        </div>
-                                        <p className="text-sm leading-tight text-muted-foreground">
-                                            Amana International Industrial Company, one of the leading & reputed industrial supplies company dedicated to providing hassle-free supplies of original parts for all makes and brands of process and utility equipment. With our extensive range of components and vast OEM network, we cater to a wide variety of industries.
-                                        </p>
-                                    </a>
-                                </NavigationMenuLink>
-                            </li>
-                            {aboutUsList.map(item =>
-                                <ListItem key={item.id} href={item.href} title={item.title}>
-                                    {item.description}
-                                </ListItem>)}
-                        </ul>
-                    </NavigationMenuContent>
-                </NavigationMenuItem> */}
                 <NavigationMenuItem>
                     <Link href={"/contact-us"} legacyBehavior passHref>
                         <NavigationMenuLink asChild>
