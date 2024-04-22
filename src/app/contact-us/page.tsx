@@ -14,80 +14,80 @@ const page = () => {
     return (
         <div>
             <Wrapper>
-                <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 px-2 pt-8 pb-16 md:px-10 md:py-20'>
-                    <div className='md:min-h-full w-full p-4 lg:p-8'>
-                        <div className='flex flex-col gap-6'>
-                            <h1 className='text-3xl md:text-4xl font-bold text-company-secondary'>Where to find us?</h1>
+                <div className='w-full px-2 pt-8 pb-16 md:px-10 md:py-12'>
+                    <h1 className='md:text-xl leading-snug py-4 px-4 lg:px-8'>Contact us for any further questions. possible projects and business partnerships.</h1>
+                    <div className='w-full w-full grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8'>
+                        <div className='md:min-h-full w-full p-4 lg:p-8'>
+                            <div className='flex flex-col gap-6'>
+                                <h1 className='text-3xl md:text-4xl font-bold text-company-secondary'>Where to find us?</h1>
 
-                            <div className="flex flex-col gap-2">
-                                <p className='text-black font-medium text-lg leading-snug'>
-                                    Amana International Industrial Company
-                                </p>
+                                <div className="flex flex-col gap-2">
+                                    <p className='text-black font-medium text-lg leading-snug'>
+                                        Amana International Industrial Company
+                                    </p>
+                                    <div className='flex gap-4 text-black/70 w-fit'>
+                                        <div className='p-1'>
+                                            <MapPin size={22} />
+                                        </div>
+                                        <p className='text-lg leading-normal'>
+                                            Opp. Ittihad Sports Club, <br />
+                                            Mushrefah, Jeddah 23341 <br />
+                                            Kingdom of Saudi Arabia <br />
+                                        </p>
+                                    </div>
+                                </div>
+
                                 <div className='flex gap-4 text-black/70 w-fit'>
                                     <div className='p-1'>
-                                        <MapPin size={22} />
+                                        <Phone size={22} />
                                     </div>
-                                    <p className='text-lg leading-normal'>
-                                        Hayat Commercial Center,
-                                        Building No: 6945-2344, <br className="hidden md:block" />
-                                        Abu Bakr Al Siddiq Street,
-                                        Ash Sharfiyah Dist. <br className="hidden md:block" />
-                                        Jeddah-23216,
-                                        Kingdom of Saudi Arabia
+                                    <p className='text-lg'>
+                                        +966 (012) 2631260
+                                    </p>
+                                </div>
+
+                                <div className='flex gap-4 text-black/70 w-fit'>
+                                    <div className="p-1">
+                                        <Mail size={22} />
+                                    </div>
+                                    <p className='text-lg'>
+                                        inquiry@amanaintl.com
                                     </p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div className='flex gap-4 text-black/70 w-fit'>
-                                <div className='p-1'>
-                                    <Phone size={22} />
-                                </div>
-                                <p className='text-lg'>
-                                    +966 (012) 2631260
-                                </p>
+
+                        <div className='h-full w-full flex flex-col gap-6 p-4 lg:p-8'>
+                            <h1 className='text-3xl md:text-4xl font-bold text-company-secondary'>Send us a message</h1>
+
+                            <div className='flex flex-col gap-2 w-full'>
+                                <Label htmlFor='name'>Name</Label>
+                                <Input id='name' type='text' />
                             </div>
 
-                            <div className='flex gap-4 text-black/70 w-fit'>
-                                <div className="p-1">
-                                    <Mail size={22} />
+                            <div className='flex flex-col lg:flex-row gap-2 '>
+                                <div className='flex flex-col gap-2 w-full'>
+                                    <Label htmlFor='phone'>Phone</Label>
+                                    <Input id='phone' type='tel' />
                                 </div>
-                                <p className='text-lg'>
-                                    inquiry@amanaintl.com
-                                </p>
+
+                                <div className='flex flex-col gap-2 w-full'>
+                                    <Label htmlFor='email'>Email</Label>
+                                    <Input id='email' type='email' />
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
+                            <div className='flex flex-col gap-2 w-full'>
+                                <Label htmlFor='message'>Message</Label>
+                                <Textarea id='message' />
+                            </div>
 
-                    <div className='h-full w-full flex flex-col gap-6 p-4 lg:p-8'>
-                        <h1 className='text-3xl md:text-4xl font-bold text-company-secondary'>Send us a message</h1>
-
-                        <div className='flex flex-col gap-2 w-full'>
-                            <Label htmlFor='name'>Name</Label>
-                            <Input id='name' type='text' />
-                        </div>
-
-                        <div className='flex flex-col gap-2 w-full'>
-                            <Label htmlFor='email'>Email</Label>
-                            <Input id='email' type='email' />
-                        </div>
-
-                        <div className='flex flex-col gap-2 w-full'>
-                            <Label htmlFor='phone'>Phone</Label>
-                            <Input id='phone' type='tel' />
-                        </div>
-
-                        <div className='flex flex-col gap-2 w-full'>
-                            <Label htmlFor='message'>Message</Label>
-                            <Textarea id='message' />
-                        </div>
-
-                        <div className='flex justify-end'>
-                            <Button className='bg-company-secondary hover:bg-company-tertiary'>
+                            <Button className='bg-company-secondary hover:bg-company-tertiary w-fit'>
                                 Send Message
                             </Button>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </Wrapper>

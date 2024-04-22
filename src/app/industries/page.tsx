@@ -1,6 +1,6 @@
 import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
-import { Factory } from 'lucide-react';
+import { MoveRight } from 'lucide-react';
 import type { Metadata } from "next";
 import Image from 'next/image';
 import React from 'react';
@@ -29,13 +29,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Our Expertise Across Industries
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg mt-4'>
                         With a team boasting over 30 years of collective experience in process industries, Amana is adept at understanding our clients&apos; requirements with precision and efficiency. Our professionals possess a deep understanding of various sectors, allowing us to cater to a diverse range of industries seamlessly.
                     </p>
                     <p className='text-lg'>
                         Currently, we proudly serve clients across the following sectors:
                     </p>
-                    <ul className='grid grid-cols-2 gap-3 text-black leading-tight'>
+                    <ul className='flex flex-col gap-3 text-black leading-tight'>
                         {sectors.map((sector, index) => <ListItem key={index}>{sector}</ListItem>)}
                     </ul>
                     <p className='text-lg'>
@@ -56,11 +56,12 @@ const page = () => {
 
 const ListItem = ({ children }: { children: React.ReactNode }) => {
     return (
-        <li className='flex gap-3 items-start bg-muted p-2 md:p-4 rounded-lg'>
-            <Factory size={28} className='flex-grow-0 text-company flex-shrink-0' />
-            <span className='h-fit font-semibold text-lg text-company-secondary leading-snug mt-0.5'>{children}</span>
+        <li className='flex gap-1 items-start text-company-secondary'>
+            <span className='p-1 flex-grow-0 flex-shrink-0'>
+                <MoveRight size={20} />
+            </span>
+            <span className='h-fit font-semibold text-lg leading-snug mt-0.5'>{children}</span>
         </li>
-
     )
 }
 
