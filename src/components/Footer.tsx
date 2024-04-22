@@ -46,7 +46,6 @@ const Footer = () => {
 
                         <div className='w-full min-h-[80px] grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-x-4 gap-y-4 rounded-lg '>
                             {allLinksList.map((nav) => <FooterLink key={nav.id} href={nav.href} title={nav.title} />)}
-                            <FooterLink href='/contact-us' title='Contact Us' />
                         </div>
                     </div>
                 </section>

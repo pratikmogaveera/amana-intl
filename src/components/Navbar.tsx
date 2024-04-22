@@ -20,11 +20,10 @@ import Wrapper from "@/components/util/Wrapper";
 import Image from "next/image";
 import React from 'react';
 
-import { aboutUsList, productList } from '@/lib/constants';
+import { allLinksList, productList } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 import { Menu } from "lucide-react";
 import Link from 'next/link';
-import ContactButton from "./ui/ContactButton";
 import { Button } from "./ui/button";
 
 
@@ -65,24 +64,11 @@ const MobileNav = () => {
                     <SheetTitle>Menu</SheetTitle>
                 </SheetHeader>
                 <div className="flex flex-col items-center gap-4 mt-8">
-                    <SheetClose asChild>
-                        <Link href={"/"} className="text-3xl border-0 border-t-2 pt-4 w-full text-center">Home</Link>
-                    </SheetClose>
-                    <SheetClose asChild>
-                        <Link href={"/about-us"} className="text-3xl border-0 border-t-2 pt-4 w-full text-center">About Us</Link>
-                    </SheetClose>
-                    {aboutUsList.map((item, index) =>
+                    {allLinksList.map((item, index) =>
                         <SheetClose asChild key={index}>
                             <Link href={item.href} className="text-3xl border-0 border-t-2 pt-4 w-full text-center">{item.title}</Link>
                         </SheetClose>
                     )}
-
-                    <div className="border-0 border-t-2 pt-4 w-full items-center text-center">
-                        <SheetClose asChild>
-                            <ContactButton fit="full" />
-                        </SheetClose>
-                    </div>
-
                 </div>
             </SheetContent>
         </Sheet>
@@ -148,8 +134,8 @@ const DesktopNav = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/contact-us"} legacyBehavior passHref>
-                        <NavigationMenuLink asChild>
-                            <ContactButton fit="fit" />
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                            Contact Us
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

@@ -1,51 +1,43 @@
-export const navLinks = [
+export const allLinksList = [
     {
         id: 'home',
         title: 'Home',
-        href: '/'
+        href: '/',
     },
     {
         id: 'about-us',
         title: 'About Us',
-        href: '/about-us'
+        href: '/about-us',
     },
-    {
-        id: 'contact-us',
-        title: 'Contact Us',
-        href: '/contact-us'
-    },
-]
-
-export const aboutUsList = [
     {
         id: 'services',
         title: 'Services',
         href: '/services',
-        description: 'Discover our range of specialized solutions tailored to meet diverse needs, ensuring comprehensive support and satisfaction.'
     },
     {
         id: 'products',
         title: 'Products',
         href: '/products',
-        description: 'Explore our high-quality, cutting-edge offerings designed to enhance efficiency, productivity, and performance across industries.',
     },
     {
         id: 'brands',
         title: 'Brands',
         href: '/brands',
-        description: 'Explore the trusted brands whose products we offer for your industrial needs.',
     },
     {
         id: 'industries',
         title: 'Industries',
         href: '/industries',
-        description: 'Explore our expertise across various sectors, delivering innovative solutions and addressing unique challenges to drive growth and success.',
     },
     {
         id: 'clients',
         title: 'Clients',
         href: '/clients',
-        description: 'Learn about our valued partnerships and satisfied clientele, reflecting our commitment to excellence and customer satisfaction.',
+    },
+    {
+        id: 'contact-us',
+        title: 'Contact Us',
+        href: '/contact-us',
     },
 ]
 
@@ -103,43 +95,5 @@ export const productList = [
         title: 'BST Detectable Produts',
         href: '/products/bst-detectable-products',
         banner: '/assets/products/bst-2.jpg',
-    },
-]
-
-export const allLinksList = [
-    {
-        id: 'home',
-        title: 'Home',
-        href: '/',
-    },
-    {
-        id: 'about-us',
-        title: 'About Us',
-        href: '/about-us',
-    },
-    {
-        id: 'services',
-        title: 'Services',
-        href: '/services',
-    },
-    {
-        id: 'products',
-        title: 'Products',
-        href: '/products',
-    },
-    {
-        id: 'brands',
-        title: 'Brands',
-        href: '/brands',
-    },
-    {
-        id: 'industries',
-        title: 'Industries',
-        href: '/industries',
-    },
-    {
-        id: 'clients',
-        title: 'Clients',
-        href: '/clients',
     },
 ]
