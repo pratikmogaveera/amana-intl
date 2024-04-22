@@ -1,6 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
-import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import type { Metadata } from "next";
 
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <div>
-            <PageHeading heading='Automation' />
             <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen min-h-[calc(100vh-4rem)] py-16'>
                 <div className='flex lg:hidden gap-8 justify-center'>
                     <div className='w-full'>

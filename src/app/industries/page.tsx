@@ -1,4 +1,3 @@
-import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import { MoveRight } from 'lucide-react';
 import type { Metadata } from "next";
@@ -23,7 +22,6 @@ const page = () => {
 
     return (
         <div>
-            <PageHeading heading='Industries' />
             <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen py-16'>
                 <div className='w-full h-full flex flex-col px-2 gap-4 order-2 lg:order-1'>
                     <h1 className='text-4xl font-bold text-company-secondary'>

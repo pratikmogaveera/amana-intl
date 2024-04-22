@@ -1,5 +1,4 @@
 import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
-import PageHeading from '@/components/util/PageHeading';
 import Wrapper from '@/components/util/Wrapper';
 import type { Metadata } from "next";
 import Image from 'next/image';
@@ -47,7 +46,6 @@ const page = () => {
 
     return (
         <div>
-            <PageHeading heading='Clients' />
             <Wrapper className='flex flex-col gap-8 py-16 items-center'>
                 <h1 className='text-3xl font-bold text-company-secondary'>Almamrai Plants</h1>
                 <div className='hidden md:flex flex-wrap gap-4 justify-center'>
