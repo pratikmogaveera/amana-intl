@@ -5,6 +5,7 @@ import HomeContactUs from "@/components/HomeContactUs";
 import HomeBrands from "@/components/HomeBrands";
 import HomeProducts from "@/components/HomeProducts";
 import type { Metadata } from "next";
+import HomeMarquee from "@/components/HomeMarquee";
 
 export const metadata: Metadata = {
     title: "Home - Amana International Industrial Company",
@@ -17,7 +18,8 @@ export default function Home() {
             {/* <HomeAbout /> */}
             <HomeBrands />
             <HomeProducts />
-            <HomeChooseUs />
+            {/* <HomeChooseUs /> */}
+            <HomeMarquee />
             <HomeContactUs />
         </div>
     );

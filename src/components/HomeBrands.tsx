@@ -23,11 +23,11 @@ const HomeBrands = () => {
         "tellure_rota.png",
     ]
     return (
-        <Wrapper>
-            <div className='flex flex-col gap-8 items-center py-16'>
-                <h1 className='font-semibold text-2xl md:text-3xl text-center'>
-                    Our Brands
-                </h1>
+        <div className="flex flex-col gap-8 justify-center py-16">
+            <h1 className='font-semibold text-2xl md:text-3xl text-center text-white p-4 bg-company-secondary'>
+                Our Brands
+            </h1>
+            <Wrapper>
                 <div className='hidden md:flex items-center flex-wrap justify-center gap-x-4'>
                     {images.map((item, index) =>
                         <div className='relative w-[90px] h-[42px] lg:w-[220px] lg:h-[110px]' key={index}>
@@ -44,7 +44,7 @@ const HomeBrands = () => {
                     <Carousel className="" autoplay={true}>
                         <CarouselContent>
                             {images.map((item, index) => (
-                                <CarouselItem key={index} className="basis-1/2">
+                                <CarouselItem key={index} className="basis-1/3">
                                     <div className="p-1">
                                         <Card>
                                             <CardContent className="flex aspect-square items-center justify-center p-6 relative">
@@ -64,8 +64,8 @@ const HomeBrands = () => {
                         <CarouselNext />
                     </Carousel>
                 </div>
-            </div>
-        </Wrapper>
+            </Wrapper>
+        </div>
     )
 }
 
