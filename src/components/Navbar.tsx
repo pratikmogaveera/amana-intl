@@ -125,13 +125,13 @@ const DesktopNav = () => {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
+                {/* <NavigationMenuItem>
                     <Link href={"/clients"} legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
                             Clients
                         </NavigationMenuLink>
                     </Link>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
                 <NavigationMenuItem>
                     <Link href={"/contact-us"} legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>

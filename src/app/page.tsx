@@ -14,7 +14,7 @@ export default function Home() {
             <HeroCarousel />
             <HomeBrands />
             <HomeProducts />
-            <HomeMarquee />
+            {/* <HomeMarquee /> */}
         </div>
     );
 }

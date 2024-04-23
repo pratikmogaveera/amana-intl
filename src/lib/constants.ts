@@ -29,11 +29,11 @@ export const allLinksList = [
         title: 'Industries',
         href: '/industries',
     },
-    {
-        id: 'clients',
-        title: 'Clients',
-        href: '/clients',
-    },
+    // {
+    //     id: 'clients',
+    //     title: 'Clients',
+    //     href: '/clients',
+    // },
     {
         id: 'contact-us',
         title: 'Contact Us',
