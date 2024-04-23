@@ -31,13 +31,13 @@ const Navbar = () => {
     return (
         <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-company-secondary">
             <Wrapper className="flex h-16 items-center justify-between">
-                <div className="relative w-[80px] h-12 flex-shrink-0">
+                <div className="relative w-[140px] h-12 flex-shrink-0">
                     <Link href={"/"}>
                         <Image
-                            src="/assets/amana_logo.png"
+                            src="/assets/amana_logo_long.png"
                             alt="amana logo"
                             fill
-                            className="object-contain bg-white p-0.5"
+                            className="object-contain bg-white py-0.5 px-2"
                         />
                     </Link>
                 </div>
