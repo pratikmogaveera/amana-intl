@@ -1,4 +1,3 @@
-import HomeContactUs from '@/components/HomeContactUs';
 import Wrapper from '@/components/util/Wrapper';
 import { MoveRight } from 'lucide-react';
 import type { Metadata } from "next";
@@ -61,7 +60,6 @@ const page = () => {
                 </div>
 
             </Wrapper >
-            <HomeContactUs />
         </div >
     )
 }
