@@ -17,10 +17,10 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Discover Our Commitment to Excellence
                     </h1>
-                    <p className='text-lg mt-4'>
+                    <p className='text-lg mt-4 text-justify'>
                         Amana is a leading and reputable industrial supplies company dedicated to providing hassle-free access to original parts for all makes and brands of process and utility equipment. With our extensive range of components and vast OEM network, we cater to a wide variety
-                    </p>
-                    <p className='text-lg'>
+                        <br />
+                        <br />
                         At Amana, we pride ourselves on our ability to ship clearly specified parts, including those hard-to-find items. We understand the urgency of emergency requirements and respond swiftly to minimize downtime. Moreover, our competitive pricing sets us apart from OEMs, offering you cost-effective solutions without compromising on quality.
                     </p>
                     <div className='flex flex-col flex-1 justify-center gap-4 h-full'>
