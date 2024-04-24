@@ -30,8 +30,8 @@ const page = () => {
                                             <MapPin size={22} />
                                         </div>
                                         <p className='text-lg leading-normal'>
-                                            Opp. Ittihad Sports Club, <br />
-                                            Mushrefah, Jeddah 23341 <br />
+                                            Hayat Commercial Center, <br />
+                                            Jeddah 23216 <br />
                                             Kingdom of Saudi Arabia <br />
                                         </p>
                                     </div>
