@@ -29,9 +29,9 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
     return (
-        <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-company-secondary">
+        <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-gradient-to-b from-background to-background/95 border-y-[0.5rem] border-company-secondary">
             <Wrapper className="flex h-16 items-center justify-between">
-                <div className="relative w-[140px] h-12 flex-shrink-0">
+                <div className="relative w-[160px] h-12 flex-shrink-0">
                     <Link href={"/"}>
                         <Image
                             src="/assets/amana_logo_long.png"
@@ -81,27 +81,27 @@ const DesktopNav = () => {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Link href={"/"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Home
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/about-us"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             About Us
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/services"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Services
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="bg-transparent text-muted">Products</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="bg-transparent">Products</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <div className="flex flex-col w-[300px] gap-2 p-4">
                             {productList.map(item =>
@@ -113,28 +113,28 @@ const DesktopNav = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/brands"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Brands
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href={"/industries"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Industries
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 {/* <NavigationMenuItem>
                     <Link href={"/clients"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Clients
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem> */}
                 <NavigationMenuItem>
                     <Link href={"/contact-us"} legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent text-muted" })}>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle({ className: "bg-transparent" })}>
                             Contact Us
                         </NavigationMenuLink>
                     </Link>
