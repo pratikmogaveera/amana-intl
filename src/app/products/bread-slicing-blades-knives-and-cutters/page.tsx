@@ -44,16 +44,16 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Discover Bread Slicing Blades, Knives & Cutters For Packaging & Process Machines
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Explore our comprehensive range of products, including all types of Band Slicer Blades for leading brands such as AMF, Hartmann, Lematic, UBE, Oshikiri, Gasparin Bread/Bun Slicers, and more.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         In addition to band slicer blades, we offer a diverse selection of fixed Slicer Blades for various reciprocating slicers.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Our specialization extends to providing quality Knives, Anvils & Sealing Jaws suitable for both Horizontal & Vertical Flow Pack machines.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Furthermore, we supply a wide array of cutters & blades tailored to the unique needs of the Process & Paper/Corrugated Industries.
                     </p>
                 </div>

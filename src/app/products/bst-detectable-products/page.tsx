@@ -44,13 +44,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         BST Detectable Products for Enhanced Safety
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Explore our range of BST Detectable Products designed to elevate safety standards in your facility. Our specialized offerings include Suction Cups that are both metal detectable and x-ray visible, providing an added layer of protection against foreign object contamination.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Additionally, we provide Retaining Clips tailored for Vacuum Depanner Belts, ensuring secure and efficient operation. From Catering Knives and Scissors to Seals and Pens, our comprehensive selection meets diverse needs across industries.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Rest assured, our products are sourced directly from the BST factory, guaranteeing fair and competitive pricing for our customers at all times.
                     </p>
                 </div>

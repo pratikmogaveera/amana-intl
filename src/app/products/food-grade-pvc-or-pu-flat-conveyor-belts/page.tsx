@@ -44,10 +44,10 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Explore Premium Food Grade PVC / PU Flat Conveyor Belts
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Benefit from our years of unrivaled experience as a leading supplier of PVC / PU belts, primarily serving the dynamic and demanding needs of the Food Industry.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Our steadfast commitment to excellence and unwavering dedication to customer satisfaction have solidified our position as a trusted partner for numerous businesses in GCC. From conceptualization to delivery, we meticulously craft these belts to precisely match the requirements of the process and our esteemed customers.
                     </p>
                 </div>

@@ -44,10 +44,10 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Explore Roller Chains, Oven Chains, and Tunnel Oven Band Chains
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Discover a wide selection of Roller chains, High-Temperature Oven Chains, and Tunnel Oven band chains. Our offerings include chains that withstand high temperatures, ideal for baking, drying, curing, or processing various products.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Trust our quality chains for reliable performance in demanding industrial applications.
                     </p>
                 </div>

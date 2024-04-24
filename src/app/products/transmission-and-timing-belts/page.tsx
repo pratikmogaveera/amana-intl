@@ -44,13 +44,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Enhance Your Operations with Transmission and Timing Belts
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Discover a vast selection of Transmission and Timing Belts, featuring leading brands renowned for their reliability and performance. Our range encompasses a variety of options tailored to meet your specific needs.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         From standard transmission belts to specialized timing belts with coatings such as fiberglass, polyester, Kevlar, and perforated designs, we provide solutions for a wide range of applications.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Trust in our belts to deliver exceptional performance and durability, ensuring smooth and efficient operation in any setting.
                     </p>
                 </div>

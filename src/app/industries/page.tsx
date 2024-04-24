@@ -27,16 +27,16 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Our Expertise Across Industries
                     </h1>
-                    <p className='text-lg mt-4'>
+                    <p className='text-lg mt-4 text-justify'>
                         With a team boasting over 30 years of collective experience in process industries, Amana is adept at understanding our clients&apos; requirements with precision and efficiency. Our professionals possess a deep understanding of various sectors, allowing us to cater to a diverse range of industries seamlessly.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Currently, we proudly serve clients across the following sectors:
                     </p>
                     <ul className='flex flex-col gap-3 text-black leading-tight'>
                         {sectors.map((sector, index) => <ListItem key={index}>{sector}</ListItem>)}
                     </ul>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Partner with Amana for reliable industrial solutions tailored to your specific industry needs.
                     </p>
                 </div>

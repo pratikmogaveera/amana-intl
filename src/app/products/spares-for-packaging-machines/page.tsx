@@ -44,13 +44,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Discover Spares For Packaging Machines
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Delve into our extensive selection of spare parts, encompassing a wide array of essential components such as Heaters, Slip ring collectors, Carbon brush holders, Mercotac collectors, Film pulling & Vacuum belts, and more.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         These parts are meticulously sourced to meet the diverse needs of various Process and Packaging machines from leading industry brands.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         You can rely on us for high-quality spares compatible with machines from Bosch, Ilapak, AMP Rose, Autowrapper, Endoline, Fuji, Hayssen, Ishida, Krones, Multivac, Omori, Rovema, TetraPak, Wrights, Woodman Yamato, and numerous others.
                     </p>
                 </div>

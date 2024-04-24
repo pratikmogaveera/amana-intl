@@ -44,13 +44,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Gear Up with Top-Quality Motors
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         We cater to a diverse range of needs, offering Gear units, Geared motors, Servo motors, Explosion-proof geared motors, AC Motors, and more.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Choose from renowned brands such as SEW Euro Drive, Brevini, Motovario, Bonfiglioli, MGM, NORD, and numerous others, ensuring quality and reliability.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         We understand the urgency of our customers&apos; requirements and ensure prompt delivery, saving valuable time.
                     </p>
                 </div>

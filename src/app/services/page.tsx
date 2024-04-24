@@ -14,26 +14,26 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Our Comprehensive Services
                     </h1>
-                    <ul className='text-lg flex flex-col gap-4 mt-4'>
-                        <li className='leading-snug'>
+                    <div className='text-lg flex flex-col gap-4 mt-4'>
+                        <p className='leading-snug text-justify'>
                             At Amana, we&apos;re dedicated to meeting the industrial spare parts and equipment needs of various industries.
-                        </li>
-                        <li className='leading-snug'>
+                        </p>
+                        <p className='leading-snug text-justify'>
                             Our comprehensive suite of services is designed to streamline operations and reduce overseas purchasing costs for our clients.
-                        </li>
-                        <li className='leading-snug'>
+                        </p>
+                        <p className='leading-snug text-justify'>
                             We handle all aspects of the procurement process, from packing and freight to insurance and local customs duties, ensuring seamless delivery to our clients&apos; specified locations.
-                        </li>
-                        <li className='leading-snug'>
+                        </p>
+                        <p className='leading-snug text-justify'>
                             We understand the importance of client satisfaction, which is why we assess their needs thoroughly, considering factors such as product quality, pricing, delivery timeframe, and the safety of delivery.
-                        </li>
-                        <li className='leading-snug'>
+                        </p>
+                        <p className='leading-snug text-justify'>
                             With our expertise and superior buying power, we negotiate with OEM suppliers to ensure that our clients&apos; specific requirements are met at the best terms and lowest possible prices.
-                        </li>
-                        <li className='leading-snug'>
+                        </p>
+                        <p className='leading-snug text-justify'>
                             Experience peace of mind knowing that your industrial procurement needs are in capable hands with Amana.
-                        </li>
-                    </ul>
+                        </p>
+                    </div>
                 </div>
 
                 <div className='w-full h-full lg:pt-14 order-1 lg:order-2 flex justify-center'>

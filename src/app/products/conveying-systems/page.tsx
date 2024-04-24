@@ -44,13 +44,13 @@ const page = () => {
                     <h1 className='text-4xl font-bold text-company-secondary'>
                         Enhance Efficiency with Reliable Conveying Systems
                     </h1>
-                    <p className='text-lg mt-8'>
+                    <p className='text-lg text-justify mt-8'>
                         Discover our extensive range, including Modular Belts, Table Top Conveyor Chains, Sprockets, Track & Wear Strips, and Bearings.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Benefit from our expertise in providing premium Modular Belts tailored to the unique needs of the Food & Processing Industries. Our meticulous attention to technical details ensures that each belt meets the highest standards of quality and performance.
                     </p>
-                    <p className='text-lg'>
+                    <p className='text-lg text-justify'>
                         Table Top Conveyor Chains offer versatility and find applications across various industries, including food and beverage, automotive, pharmaceuticals, and packaging. Customizable with different materials and configurations, they efficiently handle a wide range of loads, ensuring seamless operations in diverse settings.
                     </p>
                 </div>

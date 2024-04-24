@@ -19,8 +19,8 @@ const page = () => {
                     </h1>
                     <p className='text-lg mt-4 text-justify'>
                         Amana is a leading and reputable industrial supplies company dedicated to providing hassle-free access to original parts for all makes and brands of process and utility equipment. With our extensive range of components and vast OEM network, we cater to a wide variety
-                        <br />
-                        <br />
+                    </p>
+                    <p className='text-lg mt-4 text-justify'>
                         At Amana, we pride ourselves on our ability to ship clearly specified parts, including those hard-to-find items. We understand the urgency of emergency requirements and respond swiftly to minimize downtime. Moreover, our competitive pricing sets us apart from OEMs, offering you cost-effective solutions without compromising on quality.
                     </p>
                     <div className='flex flex-col flex-1 justify-center gap-4 h-full'>
@@ -68,7 +68,9 @@ const ListItem = ({ children }: { children: React.ReactNode }) => {
     return (
         <li className='flex gap-3 items-start'>
             <MoveRight size={20} className='flex-grow-0 flex-shrink-0 mt-[0.3] stroke-1' />
-            {children}
+            <p className='text-justify'>
+                {children}
+            </p>
         </li>
 
     )
