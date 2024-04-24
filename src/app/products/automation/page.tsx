@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <div>
-            <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen min-h-[calc(100vh-5rem)] py-16'>
+            <Wrapper className='grid grid-cols-1 lg:grid-cols-[1fr_0.75fr] gap-8 xl:gap-16 w-screen min-h-[calc(100vh-7rem)] py-16'>
                 <div className='flex lg:hidden gap-8 justify-center'>
                     <div className='w-full'>
                         <Carousel autoplay={true} buttonPos='outside' className='w-full'>

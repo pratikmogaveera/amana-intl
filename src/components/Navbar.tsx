@@ -29,15 +29,15 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
     return (
-        <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-gradient-to-b from-background to-background/95 border-y-[0.5rem] border-company-secondary">
-            <Wrapper className="flex h-16 items-center justify-between">
-                <div className="relative w-[160px] h-12 flex-shrink-0">
+        <nav className="w-full shadow-md sticky top-0 static left-0 z-50 backdrop-blur-lg bg-gradient-to-b from-background to-background/95 border-y-[1.5rem] border-company-secondary">
+            <Wrapper className="flex h-[4.5rem] items-center justify-between">
+                <div className="relative w-[180px] h-12 flex-shrink-0">
                     <Link href={"/"}>
                         <Image
                             src="/assets/amana_logo_long.png"
                             alt="amana logo"
                             fill
-                            className="object-contain bg-white py-0.5 px-2"
+                            className="object-contain bg-white"
                         />
                     </Link>
                 </div>
