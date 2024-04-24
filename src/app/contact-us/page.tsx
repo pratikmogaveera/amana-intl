@@ -31,7 +31,7 @@ const page = () => {
                                         </div>
                                         <p className='text-lg leading-normal'>
                                             Hayat Commercial Center, <br />
-                                            PO BOX 430639, Jeddah 23216 <br />
+                                            PO BOX 43639, Jeddah 23216 <br />
                                             Kingdom of Saudi Arabia <br />
                                         </p>
                                     </div>
