@@ -18,7 +18,7 @@ const Footer = () => {
                                         </div>
                                         <p className='text-lg'>
                                             Hayat Commercial Center, <br />
-                                            Jeddah 23216 <br />
+                                            PO BOX 430639, Jeddah 23216 <br />
                                             Kingdom of Saudi Arabia <br />
                                         </p>
                                     </div>
