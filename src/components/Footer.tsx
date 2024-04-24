@@ -17,8 +17,8 @@ const Footer = () => {
                                             <MapPin size={22} />
                                         </div>
                                         <p className='text-lg'>
-                                            Opp. Ittihad Sports Club, <br />
-                                            Mushrefah, Jeddah 23341 <br />
+                                            Hayat Commercial Center, <br />
+                                            Jeddah 23216 <br />
                                             Kingdom of Saudi Arabia <br />
                                         </p>
                                     </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                                             <Phone size={22} />
                                         </div>
                                         <p className='text-lg'>
-                                            +966 12 287 0084
+                                            +966 (012) 2631260
                                         </p>
                                     </div>
 
@@ -37,7 +37,7 @@ const Footer = () => {
                                             <Mail size={22} />
                                         </div>
                                         <p className='text-lg'>
-                                            inquiry@amana.com
+                                            inquiry@amanaintl.com
                                         </p>
                                     </div>
                                 </div>
