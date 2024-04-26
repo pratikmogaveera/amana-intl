@@ -1,10 +1,7 @@
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
 import Wrapper from '@/components/util/Wrapper';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import type { Metadata } from "next";
+import Form from './Form';
 
 export const metadata: Metadata = {
     title: "Contact Us - Amana International Industrial Company",
@@ -61,31 +58,7 @@ const page = () => {
                         <div className='h-full w-full flex flex-col gap-6 p-4 lg:p-8'>
                             <h1 className='text-3xl md:text-4xl font-bold text-company-secondary'>Send us a message</h1>
 
-                            <div className='flex flex-col gap-2 w-full'>
-                                <Label htmlFor='name'>Name</Label>
-                                <Input id='name' type='text' />
-                            </div>
-
-                            <div className='flex flex-col lg:flex-row gap-2 '>
-                                <div className='flex flex-col gap-2 w-full'>
-                                    <Label htmlFor='phone'>Phone</Label>
-                                    <Input id='phone' type='tel' />
-                                </div>
-
-                                <div className='flex flex-col gap-2 w-full'>
-                                    <Label htmlFor='email'>Email</Label>
-                                    <Input id='email' type='email' />
-                                </div>
-                            </div>
-
-                            <div className='flex flex-col gap-2 w-full'>
-                                <Label htmlFor='message'>Message</Label>
-                                <Textarea id='message' />
-                            </div>
-
-                            <Button className='bg-company-secondary hover:bg-company-tertiary w-fit'>
-                                Send Message
-                            </Button>
+                            <Form />
 
                         </div>
                     </div>
