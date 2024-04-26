@@ -6,6 +6,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { FormEvent } from 'react';
 import { useToast } from "@/components/ui/use-toast"
+import { Loader2 } from 'lucide-react';
 
 
 type Form = {
@@ -16,6 +17,8 @@ type Form = {
 }
 
 const FormComp = () => {
+    const [status, setStatus] = useState<"idle" | "loading">("idle")
+
     const [name, setName] = useState<string>("")
     const [phone, setPhone] = useState<string>("")
     const [email, setEmail] = useState<string>("")
@@ -26,14 +29,14 @@ const FormComp = () => {
     async function onSubmit(e: FormEvent<HTMLFormElement>) {
         e.preventDefault()
 
+        setStatus("loading")
+
         const form = {
             name,
             phone,
             email,
             message
         }
-
-        console.log(form)
 
         const response = await fetch('/api/submit', {
             method: 'POST',
@@ -45,6 +48,8 @@ const FormComp = () => {
         })
 
         const content = await response.json()
+
+        setStatus("idle")
 
         if (content.status === 200) {
             toast({
@@ -64,8 +69,6 @@ const FormComp = () => {
                 description: "Please try again later. Or please reach out to us at inquiry@amanaintl.com",
                 variant: "destructive"
             })
-
-        console.log(content)
     }
 
     return (
@@ -93,7 +96,7 @@ const FormComp = () => {
             </div>
 
             <Button type="submit" className='bg-company-secondary hover:bg-company-tertiary w-fit'>
-                Send Message
+                {status === 'loading' ? <span><Loader2 className='animate-spin' /></span> : "Send Message"}
             </Button>
         </form>
     )
