@@ -1,12 +1,11 @@
 "use client"
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { FormEvent } from 'react';
-import { useToast } from "@/components/ui/use-toast"
 import { Loader2 } from 'lucide-react';
+import { FormEvent, useState } from 'react';
+import { toast } from 'sonner';
 
 
 type Form = {
@@ -24,7 +23,7 @@ const FormComp = () => {
     const [email, setEmail] = useState<string>("")
     const [message, setMessage] = useState<string>("")
 
-    const { toast } = useToast()
+    // const { toast } = useToast()
 
     async function onSubmit(e: FormEvent<HTMLFormElement>) {
         e.preventDefault()
@@ -52,10 +51,8 @@ const FormComp = () => {
         setStatus("idle")
 
         if (content.status === 200) {
-            toast({
-                title: "Success!",
+            toast.success("Success", {
                 description: "Your message has been successfully sent.",
-                variant: "success"
             })
 
             setName("")
@@ -64,10 +61,8 @@ const FormComp = () => {
             setMessage("")
         }
         else
-            toast({
-                title: "Oops Something went wrong!",
+            toast.warning("Oops Something went wrong!", {
                 description: "Please try again later. Or please reach out to us at inquiry@amanaintl.com",
-                variant: "destructive"
             })
     }
 
@@ -95,8 +90,8 @@ const FormComp = () => {
                 <Textarea value={message} onChange={(e) => setMessage(e.target.value)} id='message' required />
             </div>
 
-            <Button type="submit" className='bg-company-secondary hover:bg-company-tertiary w-fit'>
-                {status === 'loading' ? <span><Loader2 className='animate-spin' /></span> : "Send Message"}
+            <Button type="submit" className='bg-company-secondary w-[130px] hover:bg-company-tertiary' disabled={status === "loading"}>
+                {status === 'loading' ? <span className='flex gap-2 items-center'><Loader2 className='animate-spin' />Sending...</span> : "Send Message"}
             </Button>
         </form>
     )
