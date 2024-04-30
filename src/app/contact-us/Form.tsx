@@ -7,14 +7,6 @@ import { Loader2 } from 'lucide-react';
 import { FormEvent, useState } from 'react';
 import { toast } from 'sonner';
 
-
-type Form = {
-    name: string,
-    phone: string,
-    email: string,
-    message: string
-}
-
 const FormComp = () => {
     const [status, setStatus] = useState<"idle" | "loading">("idle")
 
@@ -22,8 +14,6 @@ const FormComp = () => {
     const [phone, setPhone] = useState<string>("")
     const [email, setEmail] = useState<string>("")
     const [message, setMessage] = useState<string>("")
-
-    // const { toast } = useToast()
 
     async function onSubmit(e: FormEvent<HTMLFormElement>) {
         e.preventDefault()
