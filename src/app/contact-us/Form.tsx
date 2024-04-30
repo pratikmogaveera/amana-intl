@@ -43,6 +43,7 @@ const FormComp = () => {
         if (content.status === 200) {
             toast.success("Success", {
                 description: "Your message has been successfully sent.",
+                position: 'top-center'
             })
 
             setName("")
@@ -53,6 +54,7 @@ const FormComp = () => {
         else
             toast.warning("Oops Something went wrong!", {
                 description: "Please try again later. Or please reach out to us at inquiry@amanaintl.com",
+                position: 'top-center'
             })
     }
 
