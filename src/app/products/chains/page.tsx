@@ -24,8 +24,8 @@ const page = () => {
                                                 <CardContent className=''>
                                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                                         <Image
-                                                            src={`/assets/products/chains-${index + 1}.jpg`}
-                                                            alt={`chains-${index + 1}.jpg`}
+                                                            src={`/assets/products/chains-${index + 1}.webp`}
+                                                            alt={`chains-${index + 1}.webp`}
                                                             fill
                                                             className='object-cover'
                                                         />
@@ -54,9 +54,9 @@ const page = () => {
 
                 <div className='hidden lg:block w-full h-full'>
                     <div className='grid grid-cols-[repeat(3,_170px)] grid-rows-[repeat(4,_95px)] gap-4'>
-                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-1.jpg' alt='chains-1.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-2.jpg' alt='chains-2.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-3.jpg' alt='chains-3.jpg' fill className='object-cover' /></div>
+                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-1.webp' alt='chains-1.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-2.webp' alt='chains-2.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/chains-3.webp' alt='chains-3.webp' fill className='object-cover' /></div>
                         <></>
                         <></>
                     </div>

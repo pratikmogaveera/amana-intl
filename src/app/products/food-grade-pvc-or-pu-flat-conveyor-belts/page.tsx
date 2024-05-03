@@ -24,8 +24,8 @@ const page = () => {
                                                 <CardContent className=''>
                                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                                         <Image
-                                                            src={`/assets/products/pvc-${index + 1}.jpg`}
-                                                            alt={`pvc-${index + 1}.jpg`}
+                                                            src={`/assets/products/pvc-${index + 1}.webp`}
+                                                            alt={`pvc-${index + 1}.webp`}
                                                             fill
                                                             className='object-cover'
                                                         />
@@ -54,8 +54,8 @@ const page = () => {
 
                 <div className='hidden lg:block w-full h-full pt-14'>
                     <div className='grid grid-cols-[repeat(3,_170px)] grid-rows-[repeat(6,_95px)] gap-4'>
-                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/pvc-1.jpg' alt='pvc-1.jpg' fill className='object-cover' /></div>
-                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/pvc-2.jpg' alt='pvc-2.jpg' fill className='object-cover' /></div>                    </div>
+                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/pvc-1.webp' alt='pvc-1.webp' fill className='object-cover' /></div>
+                        <div className='relative col-span-3 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/pvc-2.webp' alt='pvc-2.webp' fill className='object-cover' /></div>                    </div>
                 </div>
             </Wrapper >
         </div>

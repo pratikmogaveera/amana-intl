@@ -24,8 +24,8 @@ const page = () => {
                                                 <CardContent className=''>
                                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                                         <Image
-                                                            src={`/assets/products/auto-${index + 1}.jpg`}
-                                                            alt={`auto-${index + 1}.jpg`}
+                                                            src={`/assets/products/auto-${index + 1}.webp`}
+                                                            alt={`auto-${index + 1}.webp`}
                                                             fill
                                                             className='object-cover'
                                                         />
@@ -54,12 +54,12 @@ const page = () => {
 
                 <div className='hidden lg:block w-full h-full'>
                     <div className='grid grid-cols-[repeat(3,_170px)] grid-rows-[repeat(6,_95px)] gap-4'>
-                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-6.jpg' alt='auto-6.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-2.jpg' alt='auto-2.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-3.jpg' alt='auto-3.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-4.jpg' alt='auto-4.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-5.jpg' alt='auto-5.jpg' fill className='object-cover' /></div>
-                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-1.jpg' alt='auto-1.jpg' fill className='object-cover' /></div>
+                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-6.webp' alt='auto-6.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-2.webp' alt='auto-2.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-3.webp' alt='auto-3.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-4.webp' alt='auto-4.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-5.webp' alt='auto-5.webp' fill className='object-cover' /></div>
+                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/auto-1.webp' alt='auto-1.webp' fill className='object-cover' /></div>
                         <></>
                         <></>
                     </div>

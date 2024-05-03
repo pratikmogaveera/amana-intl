@@ -24,8 +24,8 @@ const page = () => {
                                                 <CardContent className=''>
                                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                                         <Image
-                                                            src={`/assets/products/conveying-${index + 1}.jpg`}
-                                                            alt={`conveying-${index + 1}.jpg`}
+                                                            src={`/assets/products/conveying-${index + 1}.webp`}
+                                                            alt={`conveying-${index + 1}.webp`}
                                                             fill
                                                             className='object-cover'
                                                         />
@@ -57,10 +57,10 @@ const page = () => {
 
                 <div className='hidden lg:block w-full h-full pt-14'>
                     <div className='grid grid-cols-[repeat(3,_170px)] grid-rows-[repeat(4,_95px)] gap-4'>
-                        <div className='relative col-span-2 row-span-2 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-1.jpg' alt='conveying-1.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-4.jpg' alt='conveying-4.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-3.jpg' alt='conveying-3.jpg' fill className='object-cover' /></div>
-                        <div className='relative col-start-2 col-span-2 row-span-2 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-2.jpg' alt='conveying-2.jpg' fill className='object-cover' /></div>                    </div>
+                        <div className='relative col-span-2 row-span-2 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-1.webp' alt='conveying-1.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-4.webp' alt='conveying-4.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-3.webp' alt='conveying-3.webp' fill className='object-cover' /></div>
+                        <div className='relative col-start-2 col-span-2 row-span-2 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/conveying-2.webp' alt='conveying-2.webp' fill className='object-cover' /></div>                    </div>
                 </div>
             </Wrapper >
         </div>

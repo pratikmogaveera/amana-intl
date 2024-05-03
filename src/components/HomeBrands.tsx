@@ -12,15 +12,15 @@ import { Card, CardContent } from "./ui/card"
 
 const HomeBrands = () => {
     const images = [
-        "abb.png",
-        "allen_bradley.png",
-        "bonfiglioli.png",
-        "intralox.png",
-        "lenze.png",
-        "mitsubishi.png",
-        "sew.png",
-        "siemens.png",
-        "tellure_rota.png",
+        "abb.webp",
+        "allen_bradley.webp",
+        "bonfiglioli.webp",
+        "intralox.webp",
+        "lenze.webp",
+        "mitsubishi.webp",
+        "sew.webp",
+        "siemens.webp",
+        "tellure_rota.webp",
     ]
     return (
         <div className="flex flex-col gap-8 justify-center py-16">

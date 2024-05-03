@@ -55,7 +55,7 @@ const page = () => {
 
                 <div className='w-full h-full flex justify-center order-1 lg:order-2 lg:pt-14'>
                     <div className='w-[370px] h-[250px] lg:w-[550px] lg:h-[300px] relative rounded-lg overflow-hidden'>
-                        <Image src='/assets/about-us.jpg' alt='about-us.jpg' fill className='object-cover' />
+                        <Image src='/assets/about-us.webp' alt='about-us.webp' fill className='object-cover' />
                     </div>
                 </div>
 

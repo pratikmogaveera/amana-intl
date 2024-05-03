@@ -24,8 +24,8 @@ const page = () => {
                                                 <CardContent className=''>
                                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                                         <Image
-                                                            src={`/assets/products/transmission-${index + 1}.jpg`}
-                                                            alt={`transmission-${index + 1}.jpg`}
+                                                            src={`/assets/products/transmission-${index + 1}.webp`}
+                                                            alt={`transmission-${index + 1}.webp`}
                                                             fill
                                                             className='object-cover'
                                                         />
@@ -57,10 +57,10 @@ const page = () => {
 
                 <div className='hidden lg:block w-full h-full pt-14'>
                     <div className='grid grid-cols-[repeat(3,_170px)] grid-rows-[repeat(3,_95px)] gap-4'>
-                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-4.jpg' alt='transmission-4.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-2.jpg' alt='transmission-2.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-3.jpg' alt='transmission-3.jpg' fill className='object-cover' /></div>
-                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-1.jpg' alt='transmission-1.jpg' fill className='object-cover' /></div>
+                        <div className='relative col-span-2 row-span-3 w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-4.webp' alt='transmission-4.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-2.webp' alt='transmission-2.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-3.webp' alt='transmission-3.webp' fill className='object-cover' /></div>
+                        <div className='relative w-full h-full rounded-lg overflow-hidden'><Image src='/assets/products/transmission-1.webp' alt='transmission-1.webp' fill className='object-cover' /></div>
                         <></>
                         <></>
                     </div>

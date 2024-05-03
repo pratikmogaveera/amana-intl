@@ -49,8 +49,8 @@ const HomeChooseUs = () => {
                                 <CardContent className=''>
                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                         <Image
-                                            src={`/assets/why-choose-1.jpg`}
-                                            alt={`why-choose-1.jpg`}
+                                            src={`/assets/why-choose-1.webp`}
+                                            alt={`why-choose-1.webp`}
                                             fill
                                             className='object-cover'
                                         />
@@ -65,8 +65,8 @@ const HomeChooseUs = () => {
                                 <CardContent className=''>
                                     <div className='w-full h-[250px] relative rounded-lg overflow-hidden'>
                                         <Image
-                                            src={`/assets/why-choose-2.jpg`}
-                                            alt={`why-choose-2.jpg`}
+                                            src={`/assets/why-choose-2.webp`}
+                                            alt={`why-choose-2.webp`}
                                             fill
                                             className='object-cover'
                                         />
@@ -81,16 +81,16 @@ const HomeChooseUs = () => {
             <div className='hidden lg:flex w-full h-full gap-4'>
                 <div className='w-[50%] h-full relative'>
                     <Image
-                        src='/assets/why-choose-1.jpg'
-                        alt="why-choose-1.jpgs"
+                        src='/assets/why-choose-1.webp'
+                        alt="why-choose-1.webps"
                         fill
                         className='object-cover rounded-lg'
                     />
                 </div>
                 <div className='w-[50%] h-full relative'>
                     <Image
-                        src='/assets/why-choose-2.jpg'
-                        alt="why-choose-2.jpgs"
+                        src='/assets/why-choose-2.webp'
+                        alt="why-choose-2.webps"
                         fill
                         className='right-0 -top-10 object-cover rounded-lg'
                     />
