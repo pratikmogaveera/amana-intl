@@ -49,9 +49,9 @@ interface Item {
 
 const Item = ({ heading, content, images, link }: Item) => {
     return (<CarouselItem>
-        <div className="aspect-[2.3] w-screen">
+        <div className="aspect-[2.3] w-screen border-b-[1.5rem] border-company-secondary">
             <div className="flex flex-1 items-center h-full w-full">
-                <div className="flex flex-col gap-4 lg:gap-8 justify-center w-full h-full p-4 lg:pl-24 lg:pr-16 border-b-[1.5rem] border-company-secondary">
+                <div className="flex flex-col gap-4 lg:gap-8 justify-center w-full h-full p-4 lg:pl-24 lg:pr-16 ">
                     <h1 className="text-xl md:text-3xl lg:text-5xl font-extrabold leading-tight">{heading}</h1>
                     <p className="hidden md:block text-xs lg:text-lg text-justify text-muted-foreground leading-tight">{content}</p>
                     <Link
@@ -61,7 +61,7 @@ const Item = ({ heading, content, images, link }: Item) => {
                         Read More
                     </Link>
                 </div>
-                <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-3 w-full h-full p-4 md:p-8 bg-company-secondary">
+                <div className="grid grid-cols-2 items-center grid-rows-2 md:grid-cols-3 md:grid-rows-3 w-full h-full p-2 md:p-8 bg-company-secondary">
                     <div className="w-full h-full  bg-white/30 rounded-lg relative">
                         <Image src={`/assets/products/${images[0]}.webp`} alt={images[0]} fill className="object-cover p-1 lg:p-2 rounded-lg" />
                     </div>
