@@ -5,7 +5,6 @@ import {
 } from "@/components/ui/carousel"
 import Image from "next/image"
 import Link from "next/link"
-import { buttonVariants } from "./ui/button"
 
 const slides = [
     {
@@ -20,12 +19,6 @@ const slides = [
         images: ["blade-1", "blade-2", "blade-3", "blade-4", "blade-5"],
         link: "/products/bread-slicing-blades-knives-and-cutters",
     },
-    // {
-    //     heading: "Conveyor Systems",
-    //     content: "Enhance your production efficiency with our versatile conveyor systems, tailored to meet the unique needs of various industries.",
-    //     images: ["conveying-1", "conveying-2", "conveying-3"],
-    //     link: "/products/",
-    // },
     {
         heading: "Automation Components",
         content: "Streamline your processes with our comprehensive range of automation components, designed to optimize productivity and efficiency.",
@@ -40,7 +33,7 @@ const HeroCarousel = () => {
         <section className='w-screen aspect-[2.3]'>
             <Carousel className="w-full h-full aspect-[2.3]" autoplay={true}>
                 <CarouselContent className="w-full h-full">
-                    {slides.map((item, index) => <Item heading={item.heading} images={item.images} link={item.link} key={index} />)}
+                    {slides.map((item, index) => <Item heading={item.heading} images={item.images} content={item.content} link={item.link} key={index} />)}
                 </CarouselContent>
             </Carousel>
         </section>
@@ -49,17 +42,18 @@ const HeroCarousel = () => {
 
 interface Item {
     heading: string,
+    content: string,
     images: string[]
     link: string
 }
 
-const Item = ({ heading, images, link }: Item) => {
+const Item = ({ heading, content, images, link }: Item) => {
     return (<CarouselItem>
         <div className="aspect-[2.3] w-screen">
             <div className="flex flex-1 items-center h-full w-full">
                 <div className="flex flex-col gap-4 lg:gap-8 justify-center w-full h-full p-4 lg:pl-24 lg:pr-16 border-b-[1.5rem] border-company-secondary">
                     <h1 className="text-xl md:text-3xl lg:text-5xl font-extrabold leading-tight">{heading}</h1>
-                    <p className="hidden md:block text-xs lg:text-lg text-justify text-muted-foreground leading-tight">Elevate your industrial processes with our premium gear units and geared motors. Designed for durability and efficiency, our products ensure smooth operations in any environment.</p>
+                    <p className="hidden md:block text-xs lg:text-lg text-justify text-muted-foreground leading-tight">{content}</p>
                     <Link
                         href={link}
                         className='text-primary-foreground w-fit bg-company-secondary hover:bg-company-secondary/90 h-8 md:h-10 px-4 py-1 md:px-4 md:py-2 inline-flex items-center justify-center whitespace-nowrap rounded-md text-xs md:text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50'
